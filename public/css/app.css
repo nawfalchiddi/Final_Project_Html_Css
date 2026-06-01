@@ -1,0 +1,606 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thetop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgandtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imgandtitle img{
+    width:4rem ;
+}
+.thenavbar{
+    display: flex;
+     gap: 1rem;
+}
+.thenavbar ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+.thenavbar ul a{
+    color: rgb(8, 8, 8);
+text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.btn1{
+    padding: 0.7rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(2, 103, 2);
+    color: aliceblue;
+    cursor: pointer;
+}
+.btn1:hover p{
+     transform: translateY(-7px);
+}
+/* .btn1:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+} */
+
+/* the first section */
+.conta1{
+    border-radius: 10px;
+background: linear-gradient(to bottom, rgb(161, 229, 227) , rgb(229, 247, 245));
+}
+.container1{
+    align-items: center;
+    margin: 1rem;
+display: flex;
+justify-content: center;
+gap: 2rem;
+}
+/* ?the first div of the section box1 */
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+.line{
+    height: 0.1rem;
+    width: 20rem;
+    background-color: gray;
+}
+.class5{
+    color: orange;
+}
+.btn2{
+     padding: 0.7rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(2, 103, 2);
+    color: aliceblue;
+    cursor: pointer;
+  align-self: flex-start;
+}
+/* ? the second div box2 */
+.box2{
+    width: 40rem;
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+
+.yllbluakidprob{
+width: 20rem;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+.image1{
+    display: flex;
+    place-self: flex-end;
+    border-radius: 20px;
+    height: 10rem;
+    width: 10rem;
+}
+.image2{
+    width: 20rem;
+    border-radius: 20px;
+}
+.image3{
+    width: 20rem;
+    border-radius: 20px;
+}
+.image4{
+    display: flex;
+    place-self: flex-start;
+    border-radius: 20px;
+   height: 10rem;
+    width: 10rem;
+}
+.danmassn{
+    width: 50rem;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+.hlightblue{
+    color: rgb(72, 197, 239);
+}
+.pgray{
+    color: gray;
+}
+/* the second container of the section */
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2rem;
+}
+.analis{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+.marglf{
+    margin-left: 1rem;
+}
+.textpercentage{
+    justify-content: space-around;
+    display: flex;
+}
+.grayone{
+    background-color: rgb(170, 169, 169);
+    height: 0.5rem;
+    width: 20rem;
+}
+.greenone{
+    background-color: rgb(0, 174, 173);
+    height: 0.5rem;
+    width: 19rem;
+}
+.greenone1{
+    background-color: rgb(0, 174, 173);
+    height: 0.5rem;
+    width: 17rem;
+}
+.greenone2{
+    background-color: rgb(0, 174, 173);
+    height: 0.5rem;
+    width: 15rem;
+}
+.greenone3{
+    background-color: rgb(0, 174, 173);
+    height: 0.5rem;
+    width: 14rem;
+}
+.greenone4{
+    background-color: rgb(0, 174, 173);
+    height: 0.5rem;
+    width: 12rem;
+}
+.greenone5{
+    background-color: rgb(0, 174, 173);
+    height: 0.5rem;
+    width: 18rem;
+}
+
+/* the second conta */
+.conta2{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 3rem;
+margin-top: 1rem;
+}
+.titles{margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgtxtflh{
+    height: 20rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.imgcnt{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.classimg{
+background-size: cover;
+width: 20.5rem;
+height: 15.5rem;
+border-radius: 10px;
+}
+.divtxtonly{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+position: relative;
+bottom: 3rem;
+background-color: white;
+border-radius: 10px;
+padding: 1rem;
+}
+.up-right{
+    color: white;
+    border: none;
+    background-color: rgb(4, 193, 127);
+padding: 1rem;
+border-radius: 50%;
+position: relative;
+bottom: 11rem;
+left: 6rem;
+}
+/* te third section conta3 */
+.conta3{
+    padding: 1.1rem;
+background-color: rgb(1, 183, 182);
+display:grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(1fr);
+}
+.thesamebackground{
+background-color: rgb(1, 183, 182);
+display: flex;
+color: white;
+flex-direction: column;
+align-items: center;
+ padding: 1rem;
+ width: 65rem;
+}
+.div-icon-text{
+    color: white;
+    gap: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(1, 183, 182);
+    background-color: white;
+padding: 0.8rem;
+width: 1rem;
+border: none;
+border-radius: 50%;
+}
+.plightwhite{
+    color: rgb(203, 212, 219);
+}
+
+/* the fourth section */
+.conta4{
+display: flex;
+flex-direction: row;
+padding-bottom: 1rem;
+}
+.imgdiv{
+    overflow: hidden;
+    height: 35rem;
+}
+.imgright{
+    background-size: cover;
+    width: 30rem;
+    height: 35rem;
+}
+.div-abt-textp{
+    background-color: rgb(204, 241, 239);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 1rem;
+}
+.innerdivof-abt{
+    padding: 0.9rem;
+     display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+
+
+.pdiv-icon i{
+    position: relative;
+    left: 4rem;
+}
+/* the vivth container */
+.conta5{
+    display: flex;
+    margin: 1rem;
+    gap: 7rem;
+}
+.box4{
+display: flex;
+flex-direction: column;
+gap: 1.3rem;
+}
+.date-time{
+    padding: 0.4rem;
+    align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+}
+.paragap{
+    display: flex;
+    gap: 0.3rem;
+}
+.paragap i{
+    color: rgb(1, 172, 1);
+}
+.greenpara{
+    cursor: pointer;
+    color: rgb(86, 198, 202);
+}
+/* ? the div that contain the form */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.firstinput{
+    background-color: rgb(249, 249, 249);
+    width: 30rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.firstinput:focus{
+    background-color: white;
+    border: 1px solid lightblue;
+    
+}
+.date-div{
+    display:flex;
+    gap: 1.1rem;
+}
+.date{
+    background-color: rgb(249, 249, 249);
+    width: 13.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.date:focus{
+    background-color: white;
+    border: 1px solid lightblue;
+}
+.threediv{
+    display: flex;
+    gap: 1.5rem;
+}
+.threeinputs{
+    border: none;
+    background-color: rgb(249, 249, 249);
+    width: 7rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.threeinputs:focus{
+    background-color: white;
+    border: 1px solid lightblue;
+    border: none;
+}
+.txtarea{
+    background-color: rgb(249, 249, 249);
+    width: 28rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.txtarea:focus{
+    background-color: white;
+    border: 1px solid lightblue;
+}
+
+/* the sixth container */
+.conta6{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5rem;
+     border-radius: 10px;
+background: linear-gradient(to bottom, rgb(161, 229, 227) , rgb(229, 247, 245));
+}
+.star-icon-text-div{
+    background-color: white;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.imgprofil{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+align-items: center;
+}
+.imgprofil img{
+    width: 3rem;
+    border-radius: 50%;
+}
+.imgprofil h6{
+    color: gray;
+}
+.box5{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.txt-icon-profil{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+/*  the seventh container */
+.conta7{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    padding: 1rem;
+}
+.txt-faq{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.btn-frage{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+.die-frage{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+.btn-txt-gray{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem
+}
+.line2{
+    height: 0.2px;
+    width: 28rem;
+    background-color: gray;
+}
+
+/* the eightth container */
+.conta8{
+display: flex;
+flex-direction: row;
+gap: 5rem;
+background-color: rgb(1, 84, 97);
+color: white;
+align-items: center;
+padding: 3rem;
+border-bottom: 1px solid gray;
+}
+.pwhitebold{
+    color: lightgray;
+}
+.box6{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.box7{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.box8{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.box9{
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.txt6div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.iconboxdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.iconbox2{
+    color: lightgray;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+
+/* footer */
+footer{
+    width: 66.9rem;
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: rgb(1, 84, 97);
+color: white;
+align-items: center;
+padding: 1rem;
+margin-left: 5.1rem;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+/* the video */
+.contavideo{
+
+}
+.videoy img{
+    position: relative;
+    top: 1.4rem;
+    left: 2.5rem;
+     width: 68.9rem;
+     height: 30rem;
+}
+.class9{
+    font-size: 5rem;
+    color: rgb(1, 183, 182);
+     position: relative;
+    bottom: 14rem;
+    right: 34rem;
+    cursor: pointer;
+}
+.vdtxt{
+    position: relative;
+    left: 2.6rem;
+    width: 62.9rem;
+    padding: 3rem;
+    background-color: rgb(1, 183, 182);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.btnvd{
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+    background-color: rgb(1, 183, 182);
+    color: white;
+    cursor: pointer;
+}
