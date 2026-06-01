@@ -12,6 +12,7 @@ main{
     align-items: center;
 }
 .thetop{
+     transition: padding 0.4s ease, background-color 0.4s ease, box-shadow 0.4s ease;
     background-color: white;
     position: fixed;
     bottom: 32rem;
@@ -23,6 +24,13 @@ main{
     width: 70rem;
     z-index: 1000;
 }
+.thetop.is-sticky {
+  padding: 15px 5%;
+  background-color: #ffffff; 
+  color: #333; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .imgandtitle{
     display: flex;
     flex-direction: row;
@@ -114,6 +122,10 @@ background-color: rgb(229, 247, 245);
     border: none;
     background-color: rgb(249, 249, 249);
 }
+.inputb:focus{
+    border: 1px solid lightblue;
+    outline: none;
+}
 .btnform{
     padding: 0.5rem;
     border-radius: 10px;
@@ -125,4 +137,71 @@ background-color: rgb(229, 247, 245);
 display: flex;
 flex-direction: column;
 gap: 0.4rem;
+}
+
+/* the eightth container */
+.conta8{
+    width: 67.9rem;
+display: flex;
+flex-direction: row;
+gap: 5rem;
+background-color: rgb(1, 84, 97);
+color: white;
+align-items: center;
+padding: 3rem;
+border-bottom: 1px solid gray;
+}
+.pwhitebold{
+    color: lightgray;
+}
+.box6{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.box7{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.box8{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.box9{
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.txt6div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.iconboxdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.iconbox2{
+    color: lightgray;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+/* footer */
+footer{
+    width: 72.1rem;
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: rgb(1, 84, 97);
+color: white;
+align-items: center;
+padding: 0.9rem;
+margin-left: 2.6rem;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
 }
