@@ -17,6 +17,28 @@ main{
     justify-content: space-around;
     align-items: center;
 }
+.thetop {
+  position: fixed;
+  top: 0;
+  left: 0;
+    width: 70rem;
+    margin-left: 5rem ;
+  z-index: 1000;
+  background-color: white;
+  animation: hideHeader linear both;
+  animation-timeline: scroll(root);
+
+  animation-range: 0px 500px;
+}
+
+@keyframes hideHeader {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
 .imgandtitle{
     display: flex;
     flex-direction: row;
@@ -62,6 +84,7 @@ text-decoration: none;
 
 /* the first section */
 .conta1{
+    margin-top: 5rem;
     border-radius: 10px;
 background: linear-gradient(to bottom, rgb(161, 229, 227) , rgb(229, 247, 245));
 }
