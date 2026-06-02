@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thetop{
+    background-color: white;
+    position: fixed;
+    bottom: 32rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70rem;
+    z-index: 1000;
+}
+
+.thetop {
+  position: fixed;
+  top: 0;
+  left: 0;
+    width: 70rem;
+    margin-left: 5rem ;
+  z-index: 1000;
+  
+  animation: hideHeader linear both;
+  animation-timeline: scroll(root);
+
+  animation-range: 0px 500px;
+}
+
+@keyframes hideHeader {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+
+.imgandtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imgandtitle img{
+    width:4rem ;
+}
+.thenavbar{
+    display: flex;
+     gap: 1rem;
+}
+.thenavbar ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+.thenavbar ul a{
+    color: rgb(8, 8, 8);
+text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+.input1{
+    border-radius: 10px;
+    padding: 0.4rem;
+    border: 1px solid gray;
+}
+.input1:focus{
+    outline: none;
+    border: 1px solid lightblue;
+}
+.row-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.row-icon-number{
+    gap: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.box0{
+    padding: 0rem;
+    background-color: green;
+    color: white;
+    border-radius: 100%;
+    width: 1.3rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0.6rem;
+    right: 0.3rem;
+}
+
+
+/* the first container */
+.conta1{
+    padding-top: 5rem;
+    margin-top: rem;
+    width: 75rem;
+background-color: rgb(229, 247, 245);
+
+}
+.box1{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+.grayp{
+    color: gray;
+}
+.h1first{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+/* the second section */
+.conta2{
+
+}
+.sidebar2{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.linzgrn{
+    background-color: green;
+width: 9rem;
+height: 0.3rem;
+display: flex;
+}
+.pntgreen{
+    position: relative;
+    bottom: 0.3rem;
+    border-radius: 50%;
+    width: 0.1rem;
+padding: 0.5rem;
+background-color: green;
+}
+.pointgreen{
+ position: relative;
+    bottom: 0.3rem;
+    left: 7rem;
+    border-radius: 50%;
+    width: 0.1rem;
+padding: 0.5rem;
+background-color: green;
+}
+.graysp{
+    color: gray;
+    padding: 0.6rem;
+}
+.graysp1{
+    padding: 0.6rem;
+}
+
+.theupper-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/** the second box in the sidebar */
+
+.chekboxes{
+    gap: 0.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.iptcheck-box{
+    color: gray;
+}

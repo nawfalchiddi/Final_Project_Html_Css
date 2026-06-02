@@ -149,6 +149,7 @@ background-color: rgb(229, 247, 245);
 
 .div-of-theimage img{
     width: 25rem;
+    border-radius: 10px;
 }
 /* the eightth container */
 .conta8{
