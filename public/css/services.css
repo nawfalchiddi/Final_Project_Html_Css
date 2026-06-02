@@ -235,10 +235,9 @@ background-color: rgb(1, 84, 97);
 color: white;
 align-items: center;
 padding: 1rem;
-margin-left: 10.5rem;
+margin-left: 5.1rem;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
-
 }
 
 @media(min-width:320px) and (max-width:426px){
@@ -257,6 +256,9 @@ border-bottom-right-radius: 10px;
 }
 .big1{
     align-items: center;
+    flex-direction: column;
+}
+.upperbox{
     flex-direction: column;
 }
 .container-icon-txt{
