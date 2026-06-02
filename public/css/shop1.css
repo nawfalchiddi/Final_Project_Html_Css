@@ -189,3 +189,24 @@ background-color: green;
 .iptcheck-box{
     color: gray;
 }
+
+/* the right part of the section */
+.container-right{
+
+}
+.card-right{
+
+}
+.grn-btn{
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: white;
+    width: 3rem;
+    border-radius: 5px;
+    padding: 0.2rem;
+    background-color:rgb(2, 181, 178);
+}
+.class5{
+    color: orange;
+}
