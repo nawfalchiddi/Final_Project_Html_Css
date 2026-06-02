@@ -3,9 +3,11 @@
     margin: 0%;
 }
 body{
+    width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 main{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +22,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 70rem;
+    width: 90%;
     z-index: 1000;
 }
 .imgandtitle{
@@ -66,7 +68,7 @@ text-decoration: none;
 .conta1{
     padding-top: 5rem;
     margin-top: rem;
-    width: 75rem;
+    width: 90%;
 background-color: rgb(229, 247, 245);
 
 }
@@ -87,7 +89,7 @@ background-color: rgb(229, 247, 245);
 }
 
 /* the second section */
-.conta2{
+.conta2{width: 90%;
     gap: 5rem;
 display: flex;
 flex-direction: row;
@@ -176,13 +178,14 @@ flex-direction: row;
 
 /* the eightth container */
 .conta8{
+    padding: 1rem;
 display: flex;
 flex-direction: row;
 gap: 5rem;
 background-color: rgb(1, 84, 97);
 color: white;
 align-items: center;
-padding: 3rem;
+width: 90%;
 border-bottom: 1px solid gray;
 }
 .pwhitebold{
@@ -226,20 +229,27 @@ border-bottom: 1px solid gray;
 
 /* footer */
 footer{
-    width: 66.9rem;
+    width:100%;
+      width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ft{
+    padding: 1rem;
+    width:90%;
     display: flex;
 flex-direction: row;
 justify-content: space-around;
 background-color: rgb(1, 84, 97);
 color: white;
 align-items: center;
-padding: 1rem;
-margin-left: 5.1rem;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 }
 
-@media(min-width:320px) and (max-width:376px){
+@media(min-width:320px) and (max-width:321px){
     .thetop{
     display: flex;
     flex-direction: column;
@@ -266,23 +276,108 @@ border-bottom-right-radius: 10px;
 }
 .conta1{
     margin: 1rem;
-    margin-left: 43rem;
+    margin-left: 40rem;
     width: 50rem;
 }
 .conta8{
      width: 42rem;
     display: flex;
     flex-direction: column;
-    margin-left: 47rem;
+    margin-left: 40rem;
 }
 footer{
 
-    width: 56rem;
+    width: 46.5rem;
+    margin-left: 6.7rem;
+}
+}
+
+@media(min-width:425px) and (max-width:426px){
+    .thetop{
+    display: flex;
+    flex-direction: column;
+    width: 57rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.conta2{
+    align-items: center;
+    margin-left: 30rem;
+    flex-direction: column;
+}
+.big1{
+    align-items: center;
+    flex-direction: column;
+}
+.upperbox{
+    flex-direction: column;
+}
+.container-icon-txt{
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+}
+.conta1{
+    margin: 1rem;
+    margin-left: 30rem;
+    width: 50rem;
+}
+.conta8{
+     width: 42rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rem;
+}
+footer{
+    width: 46.5rem;
+    margin-left: 5rem;
+}
+}
+
+@media(min-width:375px) and (max-width:376px){
+    .thetop{
+    display: flex;
+    flex-direction: column;
+    width: 57rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.conta2{
+    align-items: center;
+    margin-left: 35rem;
+    flex-direction: column;
+}
+.big1{
+    align-items: center;
+    flex-direction: column;
+}
+.upperbox{
+    flex-direction: column;
+}
+.container-icon-txt{
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+}
+.conta1{
+    margin: 1rem;
+    margin-left: 35rem;
+    width: 50rem;
+}
+.conta8{
+     width: 42rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35rem;
+}
+footer{
+    width: 46.5rem;
     margin-left: 6rem;
 }
 }
 
-@media(min-width:425px){
+
+@media(min-width:768px) and (max-width:769px){
     .thetop{
     display: flex;
     flex-direction: column;
@@ -293,7 +388,7 @@ footer{
 }
 .conta2{
     align-items: center;
-    margin-left: 40rem;
+    margin-left: 10rem;
     flex-direction: column;
 }
 .big1{
@@ -309,18 +404,17 @@ footer{
 }
 .conta1{
     margin: 1rem;
-    margin-left: 43rem;
+    margin-left: 10rem;
     width: 50rem;
 }
 .conta8{
      width: 42rem;
     display: flex;
     flex-direction: column;
-    margin-left: 40rem;
+    margin-left: 10rem;
 }
 footer{
-
-    width: 45.8rem;
-    margin-left: 9.5rem;
+    width: 46.8rem;
+    margin-left: 5.6rem;
 }
 }

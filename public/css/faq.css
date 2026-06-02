@@ -13,9 +13,9 @@ main{
 }
 .thetop{
     background-color: white;
-    position: fixed;
+    /* position: fixed;
     bottom: 32rem;
-    left: 5rem;
+    left: 5rem; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -24,7 +24,7 @@ main{
     z-index: 1000;
 }
 
-.thetop {
+/* .thetop {
   position: fixed;
   top: 0;
   left: 0;
@@ -45,7 +45,7 @@ main{
   to {
     transform: translateY(-100%);
   }
-}
+} */
 
 
 .imgandtitle{
@@ -222,4 +222,20 @@ border-bottom-right-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media(min-width:320px) and (max-width:321px){
+    .thetop{
+    display: flex;
+    flex-direction: column;
+    width: 57rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.conta1{
+    margin: 1rem;
+    margin-left: 55rem;
+    width: 63rem;
+}
 }
