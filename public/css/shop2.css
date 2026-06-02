@@ -134,69 +134,13 @@ background-color: rgb(229, 247, 245);
     font-weight: 400;
 }
 
+
 /* the second section */
-.conta2{
-display: flex;
-flex-direction: row;
-gap: 5rem;
-}
-.sidebar2{
-    display: flex;
-    flex-direction: column;
-    gap: 9rem;
-}
-.linzgrn{
-    background-color: green;
-width: 9rem;
-height: 0.3rem;
-display: flex;
-}
-.pntgreen{
-    position: relative;
-    bottom: 0.3rem;
-    border-radius: 50%;
-    width: 0.1rem;
-padding: 0.5rem;
-background-color: green;
-}
-.pointgreen{
- position: relative;
-    bottom: 0.3rem;
-    left: 7rem;
-    border-radius: 50%;
-    width: 0.1rem;
-padding: 0.5rem;
-background-color: green;
-}
-.graysp{
-    color: gray;
-    padding: 0.6rem;
-}
-.graysp1{
-    padding: 0.6rem;
-}
-
-.theupper-box{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-/** the second box in the sidebar */
-
-.chekboxes{
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-.iptcheck-box{
-    color: gray;
-}
-
 /* the right part of the section */
 .container-right{
 display: grid;
-grid-template-columns: repeat(3,1fr);
-grid-template-rows: repeat(3,1fr);
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(2,1fr);
 gap: 2rem;
 }
 .card-right{
@@ -298,7 +242,7 @@ padding-bottom:0.4rem ;
     align-items: center;
 }
 .boxc{
-    margin-left: 14rem;
+    /* margin-left: 14rem; */
 }
 .padgrn{
     background-color: green;

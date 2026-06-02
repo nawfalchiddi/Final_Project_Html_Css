@@ -13,9 +13,9 @@ main{
 }
 .thetop{
     background-color: white;
-    position: fixed;
+    /* position: fixed;
     bottom: 32rem;
-    left: 5rem;
+    left: 5rem; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -235,8 +235,48 @@ background-color: rgb(1, 84, 97);
 color: white;
 align-items: center;
 padding: 1rem;
-margin-left: 5.1rem;
+margin-left: 10.5rem;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 
+}
+
+@media(min-width:320px) and (max-width:426px){
+    .thetop{
+    display: flex;
+    flex-direction: column;
+    width: 57rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.conta2{
+    align-items: center;
+    margin-left: 40rem;
+    flex-direction: column;
+}
+.big1{
+    align-items: center;
+    flex-direction: column;
+}
+.container-icon-txt{
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+}
+.conta1{
+    margin: 1rem;
+    margin-left: 43rem;
+    width: 50rem;
+}
+.conta8{
+     width: 42rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 47rem;
+}
+footer{
+
+    width: 56rem;
+    margin-left: 6rem;
+}
 }

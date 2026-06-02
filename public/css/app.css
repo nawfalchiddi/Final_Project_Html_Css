@@ -16,8 +16,9 @@ main{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
-.thetop {
+/* .thetop {
   position: fixed;
   top: 0;
   left: 0;
@@ -38,7 +39,7 @@ main{
   to {
     transform: translateY(-100%);
   }
-}
+} */
 .imgandtitle{
     display: flex;
     flex-direction: row;
@@ -84,7 +85,7 @@ text-decoration: none;
 
 /* the first section */
 .conta1{
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     border-radius: 10px;
 background: linear-gradient(to bottom, rgb(161, 229, 227) , rgb(229, 247, 245));
 }
@@ -582,7 +583,7 @@ background-color: rgb(1, 84, 97);
 color: white;
 align-items: center;
 padding: 1rem;
-margin-left: 5.1rem;
+margin-left: 10.5rem;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 
@@ -626,4 +627,109 @@ border-bottom-right-radius: 10px;
     background-color: rgb(1, 183, 182);
     color: white;
     cursor: pointer;
+}
+
+@media(min-width:320px) and (max-width:426px){
+.thetop{
+    display: flex;
+    flex-direction: column;
+    margin-left: 22rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.conta1{
+    margin: 1rem;
+    margin-left: 43rem;
+    width: 63rem;
+}
+.contavideo{
+    margin-left: 24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.videoy{
+    margin-left: 20rem;
+}
+.contavideo img{
+    width: 45rem;
+}
+.videoy i{
+    position: relative;
+     bottom: 15rem;
+    right: -0rem;
+    left: 24rem;
+}
+.vdtxt{
+    width: 42rem;
+     margin-left: 18rem;
+}
+.conta8{
+     width: 42rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 47rem;
+}
+footer{
+
+    width: 56rem;
+    margin-left: 6rem;
+}
+.conta7{
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 48rem;
+}
+.box5{
+    display: flex;
+    flex-direction: column;
+}
+.conta6{
+    width: 55rem;
+    margin-left: 45rem;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+
+}
+.box3{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+}
+.marglf{
+    padding: 1rem;
+    margin-left: 5rem;
+}
+.titles{
+    width: 25rem;
+    margin-left: 50rem;
+}
+.conta2{
+   grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+    margin-left: 48rem;
+
+}
+.thesamebackground{
+    width: 60rem;
+    margin-left: 48rem;
+}
+.conta3{
+    width: 60rem;
+     margin-left: 48rem;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.conta4{
+    width: 62rem;
+    margin-left: 48rem;
+}
+form{
+    margin-left: 30rem
+}
 }
