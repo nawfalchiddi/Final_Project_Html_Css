@@ -683,7 +683,7 @@ border-bottom-right-radius: 10px;
 .videoy a{
     z-index: 1000;
     position: relative;
-    bottom: 17rem;
+    bottom: 18rem;
     left: 34.5rem;
     color: transparent;
 }
@@ -721,11 +721,59 @@ border-bottom-right-radius: 10px;
   right: 30px;
   font-size: 45px;
   color: rgb(64, 75, 5);
-  text-decoration: none;
-  z-index: 9000;
 }
 
 @media(min-width:320px) and (max-width:376px){
+              /* animat */
+/* 1. Make the parent container relative so we can position the popup */
+.container-with-image {
+  position: relative;
+}
+.videoy a{
+    z-index: 1000;
+    position: relative;
+    bottom: 18rem;
+    left: 34.5rem;
+    color: transparent;
+}
+/* 2. Style your "class9" video popup to be hidden by default */
+.class6 {
+  display: none;
+  position: absolute;
+  top: 502rem;
+  left: 14.5rem;
+  width: 226%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+.class6:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 4. Inside the popup, center the YouTube video and make it responsive */
+.class6 iframe {
+    /* position: relative;
+    top: 224rem; */
+    position: relative;
+    right: 4rem;
+  width: 100%;
+  height: 80%;
+  border: none;
+  z-index: 3000;
+}
+
+/* 5. Close button styling */
+.close-btn {
+  position: relative;
+  top: -200px;
+  right:-0px;
+  font-size: 95px;
+  color: rgb(64, 75, 5);
+}
+   
     main{
         width: 90%;
     }
@@ -854,6 +902,56 @@ form{
 }
 
 @media(min-width:375px) and (max-width:376px){
+           /* animat */
+/* 1. Make the parent container relative so we can position the popup */
+.container-with-image {
+  position: relative;
+}
+.videoy a{
+    z-index: 1000;
+    position: relative;
+    bottom: 18rem;
+    left: 34.5rem;
+    color: transparent;
+}
+/* 2. Style your "class9" video popup to be hidden by default */
+.class6 {
+  display: none;
+  position: absolute;
+  top: 500rem;
+  left: 20rem;
+  width: 226%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+.class6:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 4. Inside the popup, center the YouTube video and make it responsive */
+.class6 iframe {
+    /* position: relative;
+    top: 224rem; */
+    position: relative;
+    right: 4rem;
+  width: 100%;
+  height: 80%;
+  border: none;
+  z-index: 3000;
+}
+
+/* 5. Close button styling */
+.close-btn {
+  position: relative;
+  top: -200px;
+  right:-0px;
+  font-size: 95px;
+  color: rgb(64, 75, 5);
+}
+   
     main{
         width: 90%;
     }
@@ -982,7 +1080,57 @@ form{
 }
 
 @media(min-width:425px) and (max-width:426px){
-     main{
+        /* animat */
+/* 1. Make the parent container relative so we can position the popup */
+.container-with-image {
+  position: relative;
+}
+.videoy a{
+    z-index: 1000;
+    position: relative;
+    bottom: 18rem;
+    left: 34.5rem;
+    color: transparent;
+}
+/* 2. Style your "class9" video popup to be hidden by default */
+.class6 {
+  display: none;
+  position: absolute;
+  top: 480rem;
+  left: 20rem;
+  width: 226%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+.class6:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 4. Inside the popup, center the YouTube video and make it responsive */
+.class6 iframe {
+    /* position: relative;
+    top: 224rem; */
+    position: relative;
+    right: 10rem;
+  width: 100%;
+  height: 80%;
+  border: none;
+  z-index: 3000;
+}
+
+/* 5. Close button styling */
+.close-btn {
+  position: relative;
+  top: -310px;
+  right: 90px;
+  font-size: 45px;
+  color: rgb(64, 75, 5);
+}
+    
+    main{
         width: 90%;
     }
 .thetop{
@@ -996,7 +1144,7 @@ form{
 }
 .conta1{
     margin: 1rem;
-    margin-left: 69rem;
+    margin-left: 73rem;
     width: 300%;
 }
 .contavideo{
@@ -1108,7 +1256,57 @@ form{
 }
 
 @media(min-width:768px) and (max-width:769px){
-     main{
+    /* animat */
+/* 1. Make the parent container relative so we can position the popup */
+.container-with-image {
+  position: relative;
+}
+.videoy a{
+    z-index: 1000;
+    position: relative;
+    bottom: 18rem;
+    left: 34.5rem;
+    color: transparent;
+}
+/* 2. Style your "class9" video popup to be hidden by default */
+.class6 {
+  display: none;
+  position: absolute;
+  top: 413rem;
+  left:35rem;
+  width: 120%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+.class6:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 4. Inside the popup, center the YouTube video and make it responsive */
+.class6 iframe {
+    /* position: relative;
+    top: 224rem; */
+    position: relative;
+    right: 2rem;
+  width: 80%;
+  height: 80%;
+  border: none;
+  z-index: 3000;
+}
+
+/* 5. Close button styling */
+.close-btn {
+  position: relative;
+  top: -310px;
+  right: 90px;
+  font-size: 45px;
+  color: rgb(64, 75, 5);
+}
+    
+    main{
         width: 90%;
     }
 .thetop{
@@ -1122,7 +1320,7 @@ form{
 }
 .conta1{
     margin: 1rem;
-    margin-left: 90rem;
+    margin-left: 83rem;
     width: 200%;
 }
 .contavideo{

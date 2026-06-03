@@ -226,33 +226,33 @@ border-bottom-right-radius: 10px;
 
 @media(min-width:320px) and (max-width:321px){
     .thetop{
-        margin-left: 8rem;
+        margin-left:2rem;
     display: flex;
     flex-direction: column;
-    width: 57rem;
+    width: 55rem;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
 .conta1{
     margin: 1rem;
-    margin-left: 51rem;
-    width: 63rem;
+    margin-left: 37.5rem;
+    width: 50rem;
 }
 .conta7{
     flex-direction:column ;
-    margin-left: 55rem;
+    margin-left: 45rem;
 
 }
 .conta8{
      width: 44rem;
     display: flex;
     flex-direction: column;
-    margin-left: 50rem;
+    margin-left: 37rem;
 }
 footer{
     width: 48.1rem;
-    margin-left: 10rem;
+    margin-left: 3.5rem;
 }
 
 }
@@ -269,8 +269,8 @@ footer{
 }
 .conta1{
     margin: 1rem;
-    margin-left: 39rem;
-    width: 58rem;
+    margin-left: 38rem;
+    width: 54rem;
 }
 .conta7{
     flex-direction:column ;
@@ -281,44 +281,44 @@ footer{
      width: 44rem;
     display: flex;
     flex-direction: column;
-    margin-left: 40rem;
+    margin-left: 36.5rem;
 }
 footer{
     width: 48.1rem;
-    margin-left: 6.7rem;
+    margin-left: 4.9rem;
 }
 
 }
 
 @media(min-width:425px) and (max-width:426px){
     .thetop{
-        margin-left: 5rem;
+        margin-left: 1rem;
     display: flex;
     flex-direction: column;
-    width: 57rem;
+    width: 50rem;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
 .conta1{
     margin: 1rem;
-    margin-left: 39rem;
-    width: 58rem;
+    margin-left: 25rem;
+    width: 50rem;
 }
 .conta7{
     flex-direction:column ;
-    margin-left: 45rem;
+    margin-left: 32rem;
 
 }
 .conta8{
      width: 44rem;
     display: flex;
     flex-direction: column;
-    margin-left: 40rem;
+    margin-left: 25rem;
 }
 footer{
     width: 48.1rem;
-    margin-left: 8.3rem;
+    margin-left: 0.8rem;
 }
 
 }
