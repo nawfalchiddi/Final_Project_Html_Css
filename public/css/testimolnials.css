@@ -245,3 +245,156 @@ border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 
 }
+
+
+@media(min-width:320px) and (max-width:321px){
+    .thetop{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.conta1{
+    margin: 1rem;
+    margin-left: 60rem;
+    width: 63rem;
+}
+
+.conta2{
+    margin-left: 60rem;
+ grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+}
+.conta8{
+     width: 44rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 59rem;
+}
+footer{
+    width: 48.2rem;
+    margin-left: 14.5rem;
+}
+.vdtxt{
+     width: 44rem;
+    margin-left: 59rem;
+}
+.card{
+    width: 16rem;
+}
+}
+
+@media(min-width:375px) and (max-width:376px){
+    .thetop{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.conta1{
+    margin: 1rem;
+    margin-left: 55rem;
+    width: 63rem;
+}
+
+.conta2{
+    margin-left: 60rem;
+ grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+}
+.conta8{
+     width: 44rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 59rem;
+}
+footer{
+    width: 48.2rem;
+    margin-left: 16.2rem;
+}
+.vdtxt{
+     width: 44rem;
+    margin-left: 59rem;
+}
+.card{
+    width: 16rem;
+}
+}
+
+@media(min-width:425px) and (max-width:426px){
+    .thetop{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.conta1{
+    margin: 1rem;
+    margin-left: 45rem;
+    width: 63rem;
+}
+
+.conta2{
+    margin-left: 46rem;
+ grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+}
+.conta8{
+     width: 44rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45rem;
+}
+footer{
+    width: 48.2rem;
+    margin-left: 10.7rem;
+}
+.vdtxt{
+     width: 44rem;
+    margin-left: 45rem;
+}
+.card{
+    width: 16rem;
+}
+}
+
+@media(min-width:768px) and (max-width:769px){
+    .thetop{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.conta1{
+    margin: 1rem;
+    margin-left: 25rem;
+    width: 63rem;
+}
+
+.conta2{
+    margin-left: 26rem;
+ grid-template-columns: repeat(2,1fr);
+}
+.conta8{
+     width: 44rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25rem;
+}
+footer{
+    width: 48.2rem;
+    margin-left: 11.5rem;
+}
+.vdtxt{
+     width: 44rem;
+    margin-left: 25rem;
+}
+.card{
+    width: 16rem;
+}
+}

@@ -176,10 +176,12 @@ gap: 1rem;
     justify-content: center;
 }
 .box3{
+    align-items: center;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 .analis{
     display: flex;
@@ -188,7 +190,8 @@ gap: 1rem;
     padding: 0.5rem;
 }
 .marglf{
-    margin-left: 1rem;
+    width: 45rem;
+    margin-left: 5rem;
 }
 .textpercentage{
     justify-content: space-around;
@@ -323,7 +326,7 @@ border-radius: 50%;
 
 /* the fourth section */
 .conta4{
-    width: 93%;
+    width: 90%;
 display: flex;
 flex-direction: row;
 padding-bottom: 1rem;
@@ -623,13 +626,14 @@ border-bottom-right-radius: 10px;
      height: 30rem;
 }
 .class9{
+    width: 5rem;
     font-size: 5rem;
     color: rgb(1, 183, 182);
      position: relative;
     bottom: 14rem;
     right: -34rem;
     cursor: pointer;
-    z-index: 1000;
+    /* z-index: 100; */
 }
 .vdtxt{
      width: 71rem;
@@ -651,6 +655,75 @@ border-bottom-right-radius: 10px;
     color: white;
     cursor: pointer;
 }
+.forgotten-icon-div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.txt-forgotten-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.icon-div-forg{
+
+    color: white;
+    padding: 0.5rem;
+    background-color: green;
+    border-radius: 50%;
+}
+
+/* animat */
+/* 1. Make the parent container relative so we can position the popup */
+.container-with-image {
+  position: relative;
+}
+.videoy a{
+    z-index: 1000;
+    position: relative;
+    bottom: 17rem;
+    left: 34.5rem;
+    color: transparent;
+}
+/* 2. Style your "class9" video popup to be hidden by default */
+.class6 {
+  display: none;
+  position: absolute;
+  top: 221rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+.class6:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 4. Inside the popup, center the YouTube video and make it responsive */
+.class6 iframe {
+    /* position: relative;
+    top: 224rem; */
+  width: 80%;
+  height: 80%;
+  border: none;
+  z-index: 3000;
+}
+
+/* 5. Close button styling */
+.close-btn {
+  position: relative;
+  top: -310px;
+  right: 30px;
+  font-size: 45px;
+  color: rgb(64, 75, 5);
+  text-decoration: none;
+  z-index: 9000;
+}
 
 @media(min-width:320px) and (max-width:376px){
     main{
@@ -668,7 +741,7 @@ border-bottom-right-radius: 10px;
 .conta1{
     margin: 1rem;
     margin-left: 59rem;
-    width: 300%;
+    width: 260%;
 }
 .contavideo{
     margin-left: 24rem;
@@ -684,25 +757,25 @@ border-bottom-right-radius: 10px;
     margin-left: 14rem;
 }
 .videoy i{
-    position: relative;
+    /* position: relative;
      bottom: 15rem;
     right: -0rem;
-    left: 34rem;
+    left: 34rem; */
 }
 .vdtxt{
     width: 43rem;
      margin-left: 34rem;
 }
 .conta8{
-     width: 214%;
+     width: 240%;
     display: flex;
     flex-direction: column;
     margin-left: 56rem;
 }
 footer{
 display: flex;
-    width: 214%;
-    margin-left: 15.5rem;
+    width: 240%;
+    margin-left: 13rem;
 }
 .ft{
     width: 90%;
@@ -721,14 +794,14 @@ display: flex;
 }
 .conta6{
     width: 300%;
-    margin-left: 55rem;
+    margin-left: 60rem;
     gap: 2rem;
 }
 .container1{
     display: flex;
     flex-direction: column;
 }
-.box3{
+.box3{width: 45%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
 }
@@ -787,7 +860,7 @@ form{
 .thetop{
     display: flex;
     flex-direction: column;
-    margin-left: 29rem;
+    margin-left: 35rem;
     width: 90%;
     align-items: center;
     justify-content: center;
@@ -795,11 +868,11 @@ form{
 }
 .conta1{
     margin: 1rem;
-    margin-left: 59rem;
+    margin-left: 69rem;
     width: 300%;
 }
 .contavideo{
-    margin-left: 24rem;
+    margin-left: 32rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -809,28 +882,27 @@ form{
 }
 .contavideo img{
     width: 45rem;
-    margin-left: 14rem;
+    margin-left: 24rem;
 }
 .videoy i{
     position: relative;
-     bottom: 15rem;
-    right: -0rem;
-    left: 34rem;
+     
+    left: 10rem;
 }
 .vdtxt{
     width: 43rem;
-     margin-left: 34rem;
+     margin-left: 44rem;
 }
 .conta8{
-     width: 214%;
+     width: 204%;
     display: flex;
     flex-direction: column;
-    margin-left: 56rem;
+    margin-left: 74rem;
 }
 footer{
 display: flex;
-    width: 214%;
-    margin-left: 13.5rem;
+    width: 205%;
+    margin-left: 23.5rem;
 }
 .ft{
     width: 90%;
@@ -841,7 +913,7 @@ display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 48rem;
+    margin-left: 68rem;
 }
 .box5{
     display: flex;
@@ -849,7 +921,7 @@ display: flex;
 }
 .conta6{
     width: 300%;
-    margin-left: 55rem;
+    margin-left: 69rem;
     gap: 2rem;
 }
 .container1{
@@ -857,6 +929,7 @@ display: flex;
     flex-direction: column;
 }
 .box3{
+    margin-left: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
 }
@@ -866,20 +939,20 @@ display: flex;
 }
 .titles{
     width: 25rem;
-    margin-left: 60rem;
+    margin-left: 69rem;
 }
 .conta2{
    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
-    margin-left: 58rem;
+    margin-left: 68rem;
 
 }
 .thesamebackground{
     width: 60rem;
-    margin-left: 58rem;
+    margin-left: 68rem;
 }
 .conta3{
     width: 60rem;
-     margin-left: 58rem;
+     margin-left: 68rem;
      display: flex;
      flex-direction: column;
     
@@ -888,21 +961,21 @@ display: flex;
     margin: 2rem;
     flex-direction: column;
    width: 300%;
-    margin-left: 80rem;
+    margin-left: 96rem;
 }
 form{
-    margin-left: 25rem
+    margin-left: 35rem
 }
 .imgright{
     width: 60%;
 }
 .box4{
     width: 190%;
-    margin-left: 25rem;
+    margin-left: 35rem;
 }
 .conta5{
     align-items: center;
-    margin-left: 30rem;
+    margin-left: 40rem;
     width: 90%;
     flex-direction: column;
 }
@@ -915,7 +988,7 @@ form{
 .thetop{
     display: flex;
     flex-direction: column;
-    margin-left: 29rem;
+    margin-left: 35rem;
     width: 90%;
     align-items: center;
     justify-content: center;
@@ -923,11 +996,11 @@ form{
 }
 .conta1{
     margin: 1rem;
-    margin-left: 59rem;
+    margin-left: 69rem;
     width: 300%;
 }
 .contavideo{
-    margin-left: 24rem;
+    margin-left: 32.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -936,29 +1009,26 @@ form{
     margin-left: 20rem;
 }
 .contavideo img{
-    width: 45rem;
-    margin-left: 14rem;
+    width: 53rem;
+    margin-left: 26rem;
 }
 .videoy i{
-    position: relative;
-     bottom: 15rem;
-    right: -0rem;
-    left: 34rem;
+   margin-left: 15rem;
 }
 .vdtxt{
-    width: 43rem;
-     margin-left: 34rem;
+    width: 51rem;
+     margin-left: 45.7rem;
 }
 .conta8{
      width: 214%;
     display: flex;
     flex-direction: column;
-    margin-left: 56rem;
+    margin-left: 76rem;
 }
 footer{
 display: flex;
     width: 214%;
-    margin-left: 11.5rem;
+    margin-left: 21.5rem;
 }
 .ft{
     width: 90%;
@@ -969,7 +1039,7 @@ display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 48rem;
+    margin-left: 68rem;
 }
 .box5{
     display: flex;
@@ -977,7 +1047,7 @@ display: flex;
 }
 .conta6{
     width: 300%;
-    margin-left: 55rem;
+    margin-left: 73rem;
     gap: 2rem;
 }
 .container1{
@@ -985,8 +1055,9 @@ display: flex;
     flex-direction: column;
 }
 .box3{
+    margin-left: 10rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+grid-template-columns: repeat(2,1fr);
 }
 .marglf{
     padding: 1rem;
@@ -994,20 +1065,20 @@ display: flex;
 }
 .titles{
     width: 25rem;
-    margin-left: 60rem;
+    margin-left: 70rem;
 }
 .conta2{
    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
-    margin-left: 58rem;
+    margin-left: 68rem;
 
 }
 .thesamebackground{
     width: 60rem;
-    margin-left: 58rem;
+    margin-left: 68rem;
 }
 .conta3{
     width: 60rem;
-     margin-left: 58rem;
+     margin-left: 68rem;
      display: flex;
      flex-direction: column;
     
@@ -1016,7 +1087,7 @@ display: flex;
     margin: 2rem;
     flex-direction: column;
    width: 300%;
-    margin-left: 80rem;
+    margin-left: 100rem;
 }
 form{
     margin-left: 25rem
@@ -1026,11 +1097,11 @@ form{
 }
 .box4{
     width: 190%;
-    margin-left: 25rem;
+    margin-left: 35rem;
 }
 .conta5{
     align-items: center;
-    margin-left: 30rem;
+    margin-left: 45rem;
     width: 90%;
     flex-direction: column;
 }
@@ -1067,12 +1138,12 @@ form{
     width: 45rem;
     margin-left: 14rem;
 }
-.videoy i{
+/* .videoy i{
     position: relative;
      bottom: 15rem;
     right: -0rem;
     left: 34rem;
-}
+} */
 .vdtxt{
     width: 43rem;
      margin-left: 34rem;
