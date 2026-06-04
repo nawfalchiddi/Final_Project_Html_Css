@@ -354,6 +354,19 @@ align-items: center;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 }
+
+.btn-fxd-last{
+    background-color: rgb(1, 183, 182);
+    color: white;
+    padding: 0.6rem;
+    font-size: 20px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
 @media(min-width:320px) and (max-width:321px){
     .thetop{
     display: flex;

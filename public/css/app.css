@@ -708,7 +708,6 @@ border-bottom-right-radius: 10px;
 }
 
 /* animat */
-/* 1. Make the parent container relative so we can position the popup */
 .container-with-image {
   position: relative;
 }
