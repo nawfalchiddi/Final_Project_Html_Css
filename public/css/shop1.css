@@ -209,9 +209,10 @@ padding-bottom:0.4rem ;
 .card-right img{
     background-size: cover;
     width: 15rem;
+    transition: transform 0.3s ease-in-out;
 }
 .card-right:hover img{
- 
+ transform: scale(1.15);
 }
 
 .grayprice{
