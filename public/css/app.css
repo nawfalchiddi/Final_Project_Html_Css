@@ -298,7 +298,7 @@ padding: 1rem;
 z-index: 2000;
 }
 .up-right{
- 
+ z-index: 2000;
     color: white;
     border: none;
     background-color: rgb(4, 193, 127);
