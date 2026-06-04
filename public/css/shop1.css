@@ -210,6 +210,10 @@ padding-bottom:0.4rem ;
     background-size: cover;
     width: 15rem;
 }
+.card-right:hover img{
+ 
+}
+
 .grayprice{
     color: gray;
 }
