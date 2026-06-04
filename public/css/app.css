@@ -719,7 +719,7 @@ border-bottom-right-radius: 10px;
     left: 34.5rem;
     color: transparent;
 }
-/* 2. Style your "class9" video popup to be hidden by default */
+
 .class6 {
   display: none;
   position: absolute;
@@ -736,7 +736,7 @@ border-bottom-right-radius: 10px;
   align-items: center;
 }
 
-/* 4. Inside the popup, center the YouTube video and make it responsive */
+
 .class6 iframe {
     /* position: relative;
     top: 224rem; */
@@ -746,7 +746,7 @@ border-bottom-right-radius: 10px;
   z-index: 3000;
 }
 
-/* 5. Close button styling */
+
 .close-btn {
   position: relative;
   top: -310px;
@@ -762,8 +762,9 @@ border-bottom-right-radius: 10px;
     border-radius: 50%;
     position: fixed;
     bottom: 0;
-    margin-bottom: 1rem;
-    margin-bottom: 1rem;
+    right: 0;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
 }
 
 @media(min-width:320px) and (max-width:376px){
