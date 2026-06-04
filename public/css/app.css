@@ -346,10 +346,10 @@ align-items: center;
     justify-content: center;
     color: rgb(1, 183, 182);
     background-color: white;
-padding: 0.8rem;
-width: 1rem;
+padding: 1rem;
 border: none;
 border-radius: 50%;
+font-size: 22px;
 }
 .plightwhite{
     color: rgb(203, 212, 219);
