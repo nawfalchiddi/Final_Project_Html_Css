@@ -358,20 +358,20 @@ border-bottom-right-radius: 10px;
     .thetop{
     display: flex;
     flex-direction: column;
-    margin-left: 6rem;
+    margin-left: 5rem;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
 .conta1{
     margin: 1rem;
-    margin-left: 55rem;
-    width: 63rem;
+    margin-left: 47rem;
+    width: 55rem;
 }
 .conta2{
     display: flex;
     flex-direction: column;
-    margin-left: 53rem;
+    margin-left: 50rem;
 }
 .div§txt§{
     width: 42rem;
@@ -424,24 +424,24 @@ footer{
     .thetop{
     display: flex;
     flex-direction: column;
-    margin-left: 6rem;
+    margin-left: 3rem;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
 .conta1{
     margin: 1rem;
-    margin-left: 48rem;
-    width: 60rem;
+    margin-left: 44rem;
+    width: 52rem;
 }
 .conta2{
     display: flex;
     flex-direction: column;
-    margin-left: 53rem;
+    margin-left: 47rem;
 }
 .div§txt§{
     width: 42rem;
-     margin-left: 50rem;
+     margin-left: 45rem;
 }
 .div-cards{
     margin-left: 20rem;
@@ -450,18 +450,18 @@ footer{
 }
 .conta3{
     width: 40rem;
-    margin-left: 50rem;
+    margin-left: 45rem;
   display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
 }
 .conta4{
     width: 40rem;
-    margin-left: 50rem;
+    margin-left: 45rem;
   display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
 }
 .vdtxt{
-    margin-left: 50rem;
+    margin-left: 43rem;
     width: 40rem;
 }
 .c2scdimg{
@@ -471,7 +471,7 @@ footer{
 }
 .box4{
     align-items: center;
-     margin-left: 47rem;
+     margin-left: 44rem;
   display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
 }
@@ -479,11 +479,11 @@ footer{
      width: 44rem;
     display: flex;
     flex-direction: column;
-    margin-left: 50rem;
+    margin-left: 43rem;
 }
 footer{
     width: 48.9rem;
-    margin-left: 12.3rem;
+    margin-left: 8.8rem;
 }
 }
 
@@ -492,24 +492,24 @@ footer{
     .thetop{
     display: flex;
     flex-direction: column;
-    margin-left: 6rem;
+    margin-left: 5rem;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
 .conta1{
     margin: 1rem;
-    margin-left: 44rem;
+    margin-left: 40rem;
     width: 60rem;
 }
 .conta2{
     display: flex;
     flex-direction: column;
-    margin-left: 48rem;
+    margin-left: 42rem;
 }
 .div§txt§{
     width: 42rem;
-     margin-left: 48rem;
+     margin-left: 42rem;
 }
 .div-cards{
     margin-left: 20rem;
@@ -518,7 +518,7 @@ footer{
 }
 .conta3{
     width: 40rem;
-    margin-left: 48rem;
+    margin-left: 42rem;
   display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
 }
@@ -529,7 +529,7 @@ footer{
     grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
 }
 .vdtxt{
-    margin-left: 49rem;
+    margin-left: 42rem;
     width: 40rem;
 }
 .c2scdimg{
@@ -539,7 +539,7 @@ footer{
 }
 .box4{
     align-items: center;
-     margin-left: 47rem;
+     margin-left: 43rem;
   display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
 }
@@ -547,11 +547,11 @@ footer{
      width: 44rem;
     display: flex;
     flex-direction: column;
-    margin-left: 49rem;
+    margin-left: 42rem;
 }
 footer{
     width: 48.9rem;
-    margin-left: 13.5rem;
+    margin-left: 9.8rem;
 }
 }
 @media(min-width:768px) and (max-width:769px){
@@ -565,7 +565,7 @@ footer{
 }
 .conta1{
     margin: 1rem;
-    margin-left: 20rem;
+    margin-left: 16rem;
     width: 50rem;
 }
 .conta2{
@@ -578,7 +578,7 @@ footer{
 }
 .div§txt§{
     width: 42rem;
-     margin-left: 20rem;
+     margin-left: 15rem;
 }
 .box2{
     
@@ -591,19 +591,19 @@ footer{
 }
 .conta3{
     width: 40rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
   display: grid;
 
     /* grid-template-columns: repeat(auto-fill, minmax(270px,1fr)); */
 }
 .conta4{
     width: 40rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
   display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
 }
 .vdtxt{
-    margin-left: 20rem;
+    margin-left: 14rem;
     width: 40rem;
 }
 .c2scdimg{
@@ -621,10 +621,10 @@ footer{
      width: 44rem;
     display: flex;
     flex-direction: column;
-    margin-left: 20rem;
+    margin-left: 14rem;
 }
 footer{
     width: 48.9rem;
-    margin-left: 9.5rem;
+    margin-left: 6.6rem;
 }
 }
