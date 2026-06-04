@@ -295,8 +295,10 @@ bottom: 3rem;
 background-color: white;
 border-radius: 10px;
 padding: 1rem;
+z-index: 2000;
 }
 .up-right{
+ 
     color: white;
     border: none;
     background-color: rgb(4, 193, 127);
