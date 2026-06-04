@@ -79,6 +79,9 @@ text-decoration: none;
 .btn1:hover p{
      transform: translateY(-7px);
 }
+.btn2:hover p{
+     transform: translateY(-7px);
+}
 /* .btn1:hover{
     cursor: pointer;
     transform: translateY(-5px);
