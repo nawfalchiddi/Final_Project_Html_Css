@@ -256,7 +256,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-.imgcnt{position: relative;
+.imgcnt{
+    position: relative;
     overflow: hidden;
     /* width: 100%;
     height: 100%; */
