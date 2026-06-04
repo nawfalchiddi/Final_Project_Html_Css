@@ -148,11 +148,47 @@ display: flex;
 flex-direction: column;
 align-items: center;
 overflow: hidden;
-padding-bottom:0.4rem ;
+padding-bottom:0.4rem;
+cursor: pointer;
 }
 .card-right img{
     background-size: cover;
     width: 15rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-right:hover img{
+ transform: scale(1.15);
+}
+
+.icon-overlay {   
+     width: 15rem;
+height: 16rem;
+  position: absolute;
+  top:1;
+  left: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Hides the overlay by default */
+  transition: opacity 0.3s ease; /* Creates a smooth fade-in effect */
+}
+
+/* Makes the overlay appear on hover */
+.card-right:hover .icon-overlay {
+  opacity: 1; 
+}
+
+.icon {
+    border-radius: 50%;
+    padding: 0.3rem;
+    background-color: #dddce7;
+    position: relative;
+    top: 5rem;
+    color: #6f6e7e;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
 }
 .grayprice{
     color: gray;

@@ -754,6 +754,17 @@ border-bottom-right-radius: 10px;
   font-size: 45px;
   color: rgb(64, 75, 5);
 }
+.btn-fxd-last{
+    background-color: rgb(1, 183, 182);
+    color: white;
+    padding: 0.6rem;
+    font-size: 20px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+}
 
 @media(min-width:320px) and (max-width:376px){
               /* animat */
