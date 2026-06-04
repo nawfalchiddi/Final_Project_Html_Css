@@ -259,12 +259,16 @@ align-items: center;
     height: 100%; */
     border-radius: 10px;
 }
+.imgcnt:hover img {
+  transform: scale(1.15); /* Zooms the image in by 15% */
+}
 .classimg{
     display: inline-block;
 object-fit: cover;
 width: 20rem;
 height: 15.5rem;
 border-radius: 10px;
+ transition: transform 0.5s ease-in-out; 
 }
 .gradient{
     border-radius: 10px;
@@ -859,7 +863,7 @@ display: flex;
 }
 .conta6{
     width: 300%;
-    margin-left: 60rem;
+    margin-left: 56rem;
     gap: 2rem;
 }
 .container1{
