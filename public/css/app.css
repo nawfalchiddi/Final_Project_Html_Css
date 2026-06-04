@@ -457,6 +457,7 @@ form{
 .date:focus{
     background-color: white;
     border: 1px solid lightblue;
+    outline: none;
 }
 .threediv{
     display: flex;
@@ -472,7 +473,7 @@ form{
 .threeinputs:focus{
     background-color: white;
     border: 1px solid lightblue;
-    border: none;
+    outline: none;
 }
 .txtarea{
     background-color: rgb(249, 249, 249);
@@ -484,6 +485,7 @@ form{
 .txtarea:focus{
     background-color: white;
     border: 1px solid lightblue;
+    outline: none;
 }
 
 /* the sixth container */

@@ -392,11 +392,11 @@ footer{
      width: 44rem;
     display: flex;
     flex-direction: column;
-    margin-left: 10rem;
+    margin-left: 7rem;
 }
 footer{
     width: 48rem;
-    margin-left: 4rem;
+    margin-left: 2.5rem;
 }
 
 }
